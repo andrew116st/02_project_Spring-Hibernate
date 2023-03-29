@@ -41,6 +41,7 @@ public class PeopleController {
 
     @GetMapping("/new")
     public String newPerson(@ModelAttribute("person") Person person) {
+
         return "people/new";
     }
 

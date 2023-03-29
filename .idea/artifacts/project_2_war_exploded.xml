@@ -1,9 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="exploded-war" name="project_2:war exploded">
-    <output-path>$PROJECT_DIR$/target/spring-mvc-app1</output-path>
-    <root id="root">
-      <element id="dir-copy" path="$PROJECT_DIR$/target/spring-mvc-app1/META-INF" />
-      <element id="dir-copy" path="$PROJECT_DIR$/target/spring-mvc-app1/WEB-INF" />
-    </root>
-  </artifact>
-</component>

@@ -36,7 +36,6 @@ public class BooksDAO {
 
     @Transactional
     public Books show(int id) {
-
         Session session = sessionFactory.getCurrentSession();
         Books book = session.get(Books.class, id);
 
